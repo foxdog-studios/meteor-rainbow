@@ -1,0 +1,2 @@
+@Rainbow = new Object(null)
+
