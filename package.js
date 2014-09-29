@@ -11,8 +11,3 @@ Package.onUse(function(api) {
   api.addFiles('lib/color_generator.coffee');
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('fds:rainbow');
-  api.addFiles('fds:rainbow-tests.js');
-});
